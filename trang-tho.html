@@ -205,17 +205,24 @@ khôn ngoan để không bị bỏ lại phía sau.Nhưng cho dù thế nào, c�
 
   </main>
 
-   <h3>Gửi ý kiến của bạn</h3>
-  <form action="https://formspree.io/f/xkgbvglz" method="POST">
-  <label for="message">Ý kiến của bạn:</label><br>
-  <textarea name="message" rows="5" cols="40" required></textarea><br><br>
-  
-  <label for="email">Email của bạn (tùy chọn):</label><br>
-  <input type="email" name="email"><br><br>
-
-  <button type="submit">Gửi phản hồi</button>
+  <h3>Gửi ý kiến của bạn</h3>
+  <form
+  action="https://formspree.io/f/xkgbvglz"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
 </form>
 
+  
 
   <section class="comments">
     <h3>Bình luận</h3>
